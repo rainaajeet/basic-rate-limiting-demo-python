@@ -9,6 +9,7 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3.6 get-pip.py
 
 python3 -m pip install --upgrade pip
+python -m pip install django
 python3 -m venv venv
 source ./venv/bin/activate
 pip3 install -r requirements.txt
