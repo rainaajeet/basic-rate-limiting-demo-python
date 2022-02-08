@@ -1,4 +1,4 @@
-Django
+django
 django-cors-headers
 django-ipware
 django-redis
@@ -6,6 +6,7 @@ python-dotenv
 pytz
 redis
 rfc3986
+django
 sniffio
 sqlparse
 urllib3
