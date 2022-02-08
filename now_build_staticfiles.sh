@@ -8,6 +8,12 @@ yum install -y python36u
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3.6 get-pip.py
 
+python3 -m venv venv
+source ./venv/bin/activate
+pip3 install -r requirements.txt
+python3 manage.py collectstatic
+python3 manage.py runserver
+
 # Install project requirements
 pip3 install -r google-cloud-run/requirements.txt
 
